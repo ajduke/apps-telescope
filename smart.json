@@ -1,0 +1,10 @@
+{
+  "packages": {
+    "bootstrap-3": {},
+    "iron-router": {},
+    "meteor-telescope": {
+      "path": "../meteor-telescope"
+    },
+    "accounts-ui-bootstrap-3": {}
+  }
+}

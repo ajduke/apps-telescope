@@ -1,0 +1,78 @@
+{
+  "meteor": {},
+  "dependencies": {
+    "basePackages": {
+      "bootstrap-3": {},
+      "iron-router": {},
+      "meteor-telescope": {
+        "path": "../meteor-telescope"
+      },
+      "accounts-ui-bootstrap-3": {}
+    },
+    "packages": {
+      "bootstrap-3": {
+        "git": "https://github.com/mangasocial/meteor-bootstrap-3.git",
+        "tag": "v3.1.1-1",
+        "commit": "63dd38968828bb8963636df93e9a1c45e2dfe67e"
+      },
+      "iron-router": {
+        "git": "https://github.com/EventedMind/iron-router.git",
+        "tag": "v0.7.0",
+        "commit": "05f34bc48c4cad9fdaa366c1ddcabe6980232ece"
+      },
+      "meteor-telescope": {
+        "path": "../meteor-telescope"
+      },
+      "accounts-ui-bootstrap-3": {
+        "git": "https://github.com/mangasocial/meteor-accounts-ui-bootstrap-3.git",
+        "tag": "v0.3.0-1",
+        "commit": "93ffa5d0e325dc7026de89f6d90c178fa04bdd3a"
+      },
+      "blaze-layout": {
+        "git": "https://github.com/EventedMind/blaze-layout.git",
+        "tag": "v0.2.2",
+        "commit": "8bc53798fe5965669ae67c72f91829fcfdceabfd"
+      },
+      "database-forms": {
+        "git": "https://github.com/lyudmil/database-forms.git",
+        "tag": "v0.0.2",
+        "commit": "9e21c15aca103a18013b6d518fe5b116f16368f0"
+      },
+      "crypto-md5": {
+        "git": "https://github.com/oortcloud/meteor-crypto-md5.git",
+        "tag": "v3.1.2.2",
+        "commit": "75bbb3eeace302122d3554a6212a6fe92553fa18"
+      },
+      "momentjs": {
+        "git": "https://github.com/crapthings/meteor-momentjs.git",
+        "tag": "v2.1.0.2",
+        "commit": "59a762e297082eea8b8cae00374c2b7ac6f89529"
+      },
+      "nprogress": {
+        "git": "https://github.com/zhouzhuojie/meteor-nprogress.git",
+        "tag": "v0.0.4",
+        "commit": "8333206b751a24fac1fbd1b03fa37621bcefe50c"
+      },
+      "fast-render": {
+        "git": "https://github.com/arunoda/meteor-fast-render.git",
+        "tag": "v0.1.23",
+        "commit": "933b9d8992f1c7004f9993b1b15dffe3bac672f3"
+      },
+      "spin": {
+        "git": "https://github.com/SachaG/meteor-spin.git",
+        "tag": "v0.2.2",
+        "commit": "3f655f0016228e4195acc784c45d3e3a247dc39f"
+      },
+      "fontawesome4": {
+        "git": "https://github.com/chrismbeckett/meteor-fontawesome4.git",
+        "tag": "v1.0.0",
+        "commit": "fe38ec775e974f0f7855d1693dc74fd4f1b4848c"
+      },
+      "crypto-base": {
+        "git": "https://github.com/oortcloud/meteor-crypto-base.git",
+        "tag": "v3.1.2.1",
+        "commit": "5df8d82a0595553415bbfae2930c6ecbeece5794"
+      }
+    }
+  }
+}
