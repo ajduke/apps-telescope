@@ -6,7 +6,7 @@ Meteor.startup(function () {
   TelescopeConfig.enableUserLinks = true
   TelescopeConfig.enableCategories = true
   TelescopeConfig.backgroudColor = '#666'
-  telescopeRoutes(TelescopeConfig.siteUrl);
+  TelescopeConfig.telescope_routes(TelescopeConfig.siteUrl);
 });
 
 

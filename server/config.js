@@ -1,11 +1,11 @@
 Meteor.startup(function () {
-  TelescopeConfig.siteUrl = 'forum'
+  TelescopeConfig.siteUrl = 'mum'
   TelescopeConfig.enableNotifications = true
-  telescopeRoutesServer(TelescopeConfig.siteUrl);
+  TelescopeConfig.telescope_routes_server(TelescopeConfig.siteUrl);
 });
 
 
 Accounts.onCreateUser(function (options, user) {
-  usr = extend_accounts_create_user(options, user);
+  usr = TelescopeConfig.extend_accounts_create_user(options, user);
   return usr;
 });
